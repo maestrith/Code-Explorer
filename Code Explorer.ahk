@@ -27,8 +27,6 @@ return
 Scan:
 ss.ScanFile(File)
 return
-
-
 Class Structure{
 	Static XML:=new XML("Hold"),LanguageList:=new XML("LanguageList")
 	__New(){
@@ -69,8 +67,6 @@ Class Structure{
 		GuiControl,,Edit1,% CXML[]
 	}
 }
-
-
 Notify(x*){
 	Code:=NumGet(x.3+8)
 	if Code in 2013,2000,2001,2006,2028,2029
@@ -86,32 +82,5 @@ Notify(x*){
 		SB_SetText(A_TickCount,2)
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Include Lib\Class XML.ahk
 #Include Lib\Class Scintilla.ahk
